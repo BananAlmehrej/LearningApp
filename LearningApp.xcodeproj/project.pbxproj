@@ -30,11 +30,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		755E47EF2CC630AF00E327F5 /* LearningApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LearningApp;
-			sourceTree = "<group>";
-		};
 		755E48002CC630AF00E327F5 /* LearningAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LearningAppTests;
@@ -43,6 +38,11 @@
 		755E480A2CC630AF00E327F5 /* LearningAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LearningAppUITests;
+			sourceTree = "<group>";
+		};
+		755E48392CC7804300E327F5 /* LearningApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LearningApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +75,7 @@
 		755E47E42CC630AF00E327F5 = {
 			isa = PBXGroup;
 			children = (
-				755E47EF2CC630AF00E327F5 /* LearningApp */,
+				755E48392CC7804300E327F5 /* LearningApp */,
 				755E48002CC630AF00E327F5 /* LearningAppTests */,
 				755E480A2CC630AF00E327F5 /* LearningAppUITests */,
 				755E47EE2CC630AF00E327F5 /* Products */,
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				755E47EF2CC630AF00E327F5 /* LearningApp */,
+				755E48392CC7804300E327F5 /* LearningApp */,
 			);
 			name = LearningApp;
 			packageProductDependencies = (
